@@ -1,0 +1,305 @@
+{
+  "6000": {
+    "process": {
+      "_events": {},
+      "_eventsCount": 1,
+      "_closesNeeded": 3,
+      "_closesGot": 0,
+      "connected": false,
+      "signalCode": null,
+      "exitCode": null,
+      "killed": false,
+      "spawnfile": "python3",
+      "_handle": {
+        "pid": 21136
+      },
+      "spawnargs": [
+        "python3",
+        "../python-server/server.py",
+        "--port=6000"
+      ],
+      "pid": 21136,
+      "stdin": {
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": null,
+        "_closeAfterHandlingError": false,
+        "_readableState": {
+          "state": 4150,
+          "highWaterMark": 16384,
+          "buffer": {
+            "head": null,
+            "tail": null,
+            "length": 0
+          },
+          "length": 0,
+          "pipes": [],
+          "flowing": null,
+          "errored": null,
+          "defaultEncoding": "utf8",
+          "awaitDrainWriters": null,
+          "decoder": null,
+          "encoding": null,
+          "readable": false
+        },
+        "_events": {},
+        "_eventsCount": 1,
+        "_writableState": {
+          "state": 786508,
+          "highWaterMark": 16384,
+          "defaultEncoding": "utf8",
+          "length": 0,
+          "corked": 0,
+          "writecb": null,
+          "writelen": 0,
+          "afterWriteTickInfo": null,
+          "buffered": [],
+          "bufferedIndex": 0,
+          "pendingcb": 0,
+          "errored": null
+        },
+        "allowHalfOpen": false,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "server": null,
+        "_server": null
+      },
+      "stdout": {
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": null,
+        "_closeAfterHandlingError": false,
+        "_readableState": {
+          "state": 4696,
+          "highWaterMark": 16384,
+          "buffer": {
+            "head": null,
+            "tail": null,
+            "length": 0
+          },
+          "length": 0,
+          "pipes": [],
+          "flowing": true,
+          "errored": null,
+          "defaultEncoding": "utf8",
+          "awaitDrainWriters": null,
+          "decoder": null,
+          "encoding": null
+        },
+        "_events": {},
+        "_eventsCount": 3,
+        "_writableState": {
+          "state": 786508,
+          "highWaterMark": 16384,
+          "defaultEncoding": "utf8",
+          "length": 0,
+          "corked": 0,
+          "writecb": null,
+          "writelen": 0,
+          "afterWriteTickInfo": null,
+          "buffered": [],
+          "bufferedIndex": 0,
+          "pendingcb": 0,
+          "errored": null
+        },
+        "allowHalfOpen": false,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "server": null,
+        "_server": null
+      },
+      "stderr": {
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": null,
+        "_closeAfterHandlingError": false,
+        "_readableState": {
+          "state": 4696,
+          "highWaterMark": 16384,
+          "buffer": {
+            "head": null,
+            "tail": null,
+            "length": 0
+          },
+          "length": 0,
+          "pipes": [],
+          "flowing": true,
+          "errored": null,
+          "defaultEncoding": "utf8",
+          "awaitDrainWriters": null,
+          "decoder": null,
+          "encoding": null
+        },
+        "_events": {},
+        "_eventsCount": 3,
+        "_writableState": {
+          "state": 786508,
+          "highWaterMark": 16384,
+          "defaultEncoding": "utf8",
+          "length": 0,
+          "corked": 0,
+          "writecb": null,
+          "writelen": 0,
+          "afterWriteTickInfo": null,
+          "buffered": [],
+          "bufferedIndex": 0,
+          "pendingcb": 0,
+          "errored": null
+        },
+        "allowHalfOpen": false,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "server": null,
+        "_server": null
+      },
+      "stdio": [
+        {
+          "connecting": false,
+          "_hadError": false,
+          "_parent": null,
+          "_host": null,
+          "_closeAfterHandlingError": false,
+          "_readableState": {
+            "state": 4150,
+            "highWaterMark": 16384,
+            "buffer": {
+              "head": null,
+              "tail": null,
+              "length": 0
+            },
+            "length": 0,
+            "pipes": [],
+            "flowing": null,
+            "errored": null,
+            "defaultEncoding": "utf8",
+            "awaitDrainWriters": null,
+            "decoder": null,
+            "encoding": null,
+            "readable": false
+          },
+          "_events": {},
+          "_eventsCount": 1,
+          "_writableState": {
+            "state": 786508,
+            "highWaterMark": 16384,
+            "defaultEncoding": "utf8",
+            "length": 0,
+            "corked": 0,
+            "writecb": null,
+            "writelen": 0,
+            "afterWriteTickInfo": null,
+            "buffered": [],
+            "bufferedIndex": 0,
+            "pendingcb": 0,
+            "errored": null
+          },
+          "allowHalfOpen": false,
+          "_sockname": null,
+          "_pendingData": null,
+          "_pendingEncoding": "",
+          "server": null,
+          "_server": null
+        },
+        {
+          "connecting": false,
+          "_hadError": false,
+          "_parent": null,
+          "_host": null,
+          "_closeAfterHandlingError": false,
+          "_readableState": {
+            "state": 4696,
+            "highWaterMark": 16384,
+            "buffer": {
+              "head": null,
+              "tail": null,
+              "length": 0
+            },
+            "length": 0,
+            "pipes": [],
+            "flowing": true,
+            "errored": null,
+            "defaultEncoding": "utf8",
+            "awaitDrainWriters": null,
+            "decoder": null,
+            "encoding": null
+          },
+          "_events": {},
+          "_eventsCount": 3,
+          "_writableState": {
+            "state": 786508,
+            "highWaterMark": 16384,
+            "defaultEncoding": "utf8",
+            "length": 0,
+            "corked": 0,
+            "writecb": null,
+            "writelen": 0,
+            "afterWriteTickInfo": null,
+            "buffered": [],
+            "bufferedIndex": 0,
+            "pendingcb": 0,
+            "errored": null
+          },
+          "allowHalfOpen": false,
+          "_sockname": null,
+          "_pendingData": null,
+          "_pendingEncoding": "",
+          "server": null,
+          "_server": null
+        },
+        {
+          "connecting": false,
+          "_hadError": false,
+          "_parent": null,
+          "_host": null,
+          "_closeAfterHandlingError": false,
+          "_readableState": {
+            "state": 4696,
+            "highWaterMark": 16384,
+            "buffer": {
+              "head": null,
+              "tail": null,
+              "length": 0
+            },
+            "length": 0,
+            "pipes": [],
+            "flowing": true,
+            "errored": null,
+            "defaultEncoding": "utf8",
+            "awaitDrainWriters": null,
+            "decoder": null,
+            "encoding": null
+          },
+          "_events": {},
+          "_eventsCount": 3,
+          "_writableState": {
+            "state": 786508,
+            "highWaterMark": 16384,
+            "defaultEncoding": "utf8",
+            "length": 0,
+            "corked": 0,
+            "writecb": null,
+            "writelen": 0,
+            "afterWriteTickInfo": null,
+            "buffered": [],
+            "bufferedIndex": 0,
+            "pendingcb": 0,
+            "errored": null
+          },
+          "allowHalfOpen": false,
+          "_sockname": null,
+          "_pendingData": null,
+          "_pendingEncoding": "",
+          "server": null,
+          "_server": null
+        }
+      ]
+    },
+    "pid": 21136
+  }
+}
