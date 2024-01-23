@@ -16,6 +16,9 @@ COPY node-server/ /app/node-server/
 # Copy the Supervisor configuration file
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+# Copy the Python server files
+COPY python-server/ /app/python-server/
+
 # Set the working directory to /app/node-server
 WORKDIR /app/node-server
 

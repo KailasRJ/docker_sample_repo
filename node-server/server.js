@@ -12,7 +12,7 @@ let pythonProcesses = {};
 // Start a Python server on a specified port
 function startPythonServer(port) {
     if (!isPythonServerRunning(port)) {
-        const pythonProcess = spawn('python3', [`../python-server/server.py`, `--port=${port}`]);
+        const pythonProcess = spawn('python3', [`python-server/server.py`, `--port=${port}`]);
 
         pythonProcess.stdout.on('data', (data) => {
             console.log(`Python Server Output: ${data}`);
